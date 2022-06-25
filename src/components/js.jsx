@@ -9,11 +9,11 @@ const Js = () => {
         console.log(elem, 'hiii');
         setInterval(() => elem.hidden = !elem.hidden, 1000)
 
-        // const Scroll = document.getElementById('scrollImage')
-        // window.addEventListener('scroll', function () {
-        //     let value = window.scrollY;
-        //     Scroll.style.left = value * 0.5 + 'px'
-        // })
+        const Scroll = document.getElementById('scrollImage')
+        window.addEventListener('scroll', function () {
+            let value = window.scrollY;
+            Scroll.style.left = value * 0.5 + 'px'
+        })
 
     }, []);
 
@@ -90,7 +90,10 @@ const Wrapper = styled.div`
             height: 150px;
             position: relative;
             img{
-        
+                /* position: absolute;
+                left: 0; */
+                width: 150px;
+                border-radius: 50%;
             }
           }
         }
