@@ -1,9 +1,10 @@
+import Header from "./components/header";
 
 
 function App() {
   return (
     <div>
-      hi
+      <Header/>
     
     </div>
   );
