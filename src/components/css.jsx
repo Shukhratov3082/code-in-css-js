@@ -114,6 +114,7 @@ const Wrapper = styled.div`
                     border-radius:51% 49% 70% 30% / 30% 30% 70% 70%;
                     a{
                         text-align: center;
+                        color: white;
                         font-size: 45px;
 
                     }

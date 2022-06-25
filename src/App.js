@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import Css from "./components/css";
 import Header from "./components/header";
+import Js from "./components/js";
 
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
     <Wrapper>
       <Header />
       <Css />
+      <Js/>
     </Wrapper>
   );
 }
