@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
-import logo from './images/Logo.jpg';
-import Code from './images/code2.webp';
+import logo from './Images/Logo.jpg';
+import Code from './Images/code2.webp';
 
 const Header = () => {
     return (
