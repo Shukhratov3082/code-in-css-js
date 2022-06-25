@@ -31,7 +31,6 @@ const Header = () => {
 
 export default Header;
 const Wrapper = styled.div`
-      
     header{
         width: 100%;
         height: 80px;
